@@ -26,6 +26,13 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
+nav{
+    font-family: "Helvetica Neue";
+    font-color: var(--text-color);
+}
+
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -207,16 +214,6 @@ footer {
 }
 
 
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    transition: background-color var(--transition-speed), color var(--transition-speed);
-    line-height: 1.4;
-    -webkit-font-smoothing: antialiased; 
-}
-
-
 .logo {
     font-size: 56px;
     font-weight: 800;
@@ -300,7 +297,7 @@ body {
     font-size: 48px;
     font-weight: 800;
     font-style: italic;
-    text-align: center;
+    text-align: left;
     margin: 60px 0;
     padding: 0 40px;
     line-height: 1.1;
@@ -308,7 +305,7 @@ body {
     border-left: 4px solid var(--text-color); 
 }
 
-.content-media {
+.renalabs-image {
     margin: 80px 0;
     text-align: center;
 }
